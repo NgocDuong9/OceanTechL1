@@ -1,0 +1,157 @@
+@media(min-width:901px) and (max-width:1350px) {
+    
+    #exercise4 .box {
+        width: 50%;
+        margin-left: 0;
+    }
+
+    #exercise5 li {
+        width: 49%;
+    }
+
+    #exercise6 ul {
+        grid-template-columns: auto auto ;
+
+    }
+
+    #exercise13 .content13 {
+        width: 45%;
+    }
+}
+
+@media(max-width:1100px){
+        #exercise12 .content12-1 {
+        width: 100%;
+    }
+    #exercise12 .content12-2 {
+        width: 100%;
+    }
+    #exercise12 .conent12 p {
+        max-width: 300px;
+    }
+
+    #exercise12 button {
+        width: 100%;
+    }
+}
+
+@media(max-width:900px){
+    #exercise2,
+    #exercise4 {
+        width: 100%;
+        margin-left: 0;
+    }
+    #exercise3 p {
+        padding: 29px 60px;
+    }
+    #exercise3 input {
+        width: 58%;
+    }
+
+    #exercise4 .box {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    #exercise5 {
+        margin-left: 0;
+        width: 90%;
+    }
+    #exercise5 .header, #exercise5 ul {
+        margin: 32px 80px 32px 90px;
+    }
+    #exercise5 li {
+        width: 100%;
+    }
+    #exercise6 ul {
+        grid-template-columns: auto  ;
+
+    }
+
+    #exercise7 .content7-1 {
+        flex-direction: column-reverse;
+    }
+
+    #exercise7 .content7-2 {
+        flex-direction: column;
+    }
+
+    #exercise7 .content7 {
+        width: 100%;
+    }
+    #exercise7 img {
+        min-width: 60%;
+        width: 60%;
+        margin: 16px 0;
+    }
+    #exercise7 .img{
+        margin-left: 20%;
+    }
+    #exercise7 button {
+        width: 100%;
+    }
+    #exercise7 p {
+        text-align: justify;
+
+    }
+
+    #exercise9 .content9 {
+        width: 75%;
+    }
+
+    #exercise9 img {
+        height: 70px;
+    }
+    #exercise10 #content10 {
+        display: block;
+        text-align: center;
+    }
+    #exercise10 .content10 {
+        margin-top: 0;
+        text-align: left;
+        margin-left: 30px;
+    }
+
+    #exercise10 h1 {
+        margin: 25px;
+        font-size: 46px;;
+        padding: 13px 37px;
+        height: 80px;
+        line-height: 80px;
+        font-weight: 100;
+    }
+    #content10 h3 {
+        font-size: 22px;
+    }
+
+    #content10 p {
+       font-size: 18px;
+    }
+
+    #exercise10 hr {
+        width: 84%;
+        margin-left: 6%;
+    }
+
+    #exercise11 .ip1, #exercise11 .ip2 {
+        width: calc(100% - 24px);
+    }
+    #exercise11 .footer {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column-reverse;
+    }
+    #exercise11 button {
+        margin-top: 12px;
+        width: 100%;
+    }
+
+    #exercise11 textarea {
+        margin-bottom: 12px;
+    }
+
+    #exercise13 .content13 {
+        width: 100%;
+        padding:  12px 32px;
+    }
+}

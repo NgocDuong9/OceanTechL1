@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./bt3.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="stylesheet" href="./themify-icons/themify-icons.css" />
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="background" class="exit"></div>
+    <button class="btn-login">Đăng nhập hệ thống</button>
+    <div class="login">
+        <div class="header">
+            <h2>Member Login</h2>
+            <i class="fa-solid fa-xmark close1"></i>
+        </div>
+        <div class="input">
+            <form action="">
+                <div class="border-input">
+                    <label for="user">
+                        <i class="ti-user ip-icon"></i>
+                    </label>
+                    <input name="user" type="text" class="input-css" id="user" placeholder="Username" required />
+                </div>
+                <div class="check-user alert-css"></div>
+                <div class="border-input">
+                    <label for="password">
+                        <i class="ti-lock ip-icon"></i>
+                    </label>
+                    <input name="password" type="password" class="input-css" id="password" placeholder="Password" />
+                </div>
+                <div class="check-password alert-css"></div>
+            </form>
+        </div>
+        <button class="btn-login-1 login-1">Login</button>
+
+        <div class="alert1 alert-css"></div>
+        <div class="footer">
+            <p id="forgot">Forgot Password?</p>
+        </div>
+    </div>
+    <div class="forgot">
+        <div class="header">
+            <h2>Change Password</h2>
+            <i class="fa-solid fa-xmark close2"></i>
+        </div>
+        <div class="input">
+            <form action="">
+                <div class="border-input">
+                    <label for="oldpass">
+                        <i class="ti-lock ip-icon "></i>
+                    </label>
+                    <input name="oldpass" type="password" class="input-css" id="oldpass" placeholder="OldPassWord"
+                        required /><br />
+                </div>
+                <div class="check-oldpass alert-css"></div>
+                <div class="border-input">
+
+                    <label for="newpass">
+                        <i class="ti-lock ip-icon"></i>
+                    </label>
+                    <input name="newpass" type="password" class="input-css" id="newpass"
+                        placeholder="NewPassword" /><br />
+                </div>
+                <div class="check-newpass alert-css"></div>
+            </form>
+        </div>
+        <button class="btn-login-1 save">Save</button>
+        <div class="alert2 alert-css"></div>
+        <div class="footer">
+            <p id="showLogin">Login</p>
+        </div>
+    </div>
+
+    <script src="./bt3.js"></script>
+</body>
+
+</html>

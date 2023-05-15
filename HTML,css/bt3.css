@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    justify-content: center;
+}
+
+
+
+#background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: #0000003d;
+    z-index: -1;
+}
+
+.btn-login {
+    font-size: 32px;
+    background-color: rgb(106, 205, 133);
+    padding: 8px;
+    border-radius: 12px;
+    cursor: pointer;
+    margin: 50px 0 0 0;
+}
+
+.login,
+.forgot {
+    width: 450px;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    justify-content: center;
+    /* border: 22px #00000054 solid; */
+    border-radius: 10px;
+    display: none;
+    margin: 30px auto;
+    box-shadow: rgb(0 0 0 / 24%) 0px 5px 16px;
+}
+
+.header {
+    position: relative;
+}
+
+
+
+.exit{
+    display: none;
+}
+
+.open {
+    display: block;
+}
+
+h2 {
+    font-size: 36px;
+    display: block;
+    padding: 48px;
+}
+
+.input {
+    width: 70%;
+    margin: 0 auto;
+}
+
+input {
+    text-align: left;
+    padding: 10px 20px 10px 0;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    width: 80%;
+    margin-left: 42px
+}
+
+.border-input {
+    display: block;
+    border: 1px black solid;
+    border-radius: 4px;
+    position: relative;
+    margin-bottom: 12px;
+}
+
+
+.close1,
+.close2 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 16px 21px;
+    cursor: pointer;
+    font-size: 28px;
+    color: #ababab;
+}
+
+.ip-icon{
+    font-size: 26px;
+    position: absolute;
+    top:8px;
+    left: 8px;
+}
+
+.btn-login-1 {
+    font-size: 24px;
+    background-color: rgb(106, 205, 133);
+    color: white;
+    border: 0px;
+    padding: 12px;
+    width: 320px;
+    /* padding-left: 130px;
+    padding-right: 128px; */
+    text-align: center;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-bottom: 12px;
+
+}
+.btn-login:hover,
+.btn-login-1:hover {
+    background-color: rgb(7, 248, 71);
+
+}
+
+.alert-css p {
+    font-size: 18px;
+    color: red;
+    text-align: left;
+    margin-bottom: 12px;
+}
+
+
+
+.alert-css span {
+    margin-top: 10px;
+    color: red;
+    font-size: 20px;
+}
+
+.alert-css i {
+    font-size: 20px;
+    color: rgb(148, 247, 0);
+}
+
+
+.footer {
+    font-size: 24px;
+    background-color: rgb(237, 240,241);
+    padding: 24px;
+    margin-top: 36px;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.footer p {
+    display: inline-block;
+}
+
+.footer p:hover {
+    cursor: pointer;
+    color: blue;
+}
+
+.open {
+    display: block;
+}
